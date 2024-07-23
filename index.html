@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="landing_page.css">
+</head>
+<body class="body">
+    <div class="body-2">
+    <div class="header">
+        <span style="display: flex; align-items: center; justify-content: flex-start;"><img src="hamburger_svg.svg" id="hamburger-svg" alt="" height="18px" width="18px" style="margin-right:10px ;" onclick="hamburger()"><img src="home_svg.svg" alt="" height="16px" width="16px">&nbsp;<span>Home</span></span>
+        <span style="border-radius: 8px; background-color: white; color: black; padding: 2px; display: flex; align-items: center;"><img src="emoji_svg.svg" alt="" height="16px" width="16px"><span>Anubhav Saha</span></span>
+    </div>
+    <div class="content">
+       
+        <div class="cont-1">
+            <div class="new_item_box">
+                <div class="new_item">
+                    <span style="display: flex; align-items: center; font-size: 18px; "><img src="plus_svg.svg" alt="" height="18px" width="18px">&nbsp;<span style="white-space: nowrap;">New Item</span></span>
+                   
+                </div>
+            </div>
+            <div class="dropdown" id="dropdown-1">
+                <span style="display: flex; align-items: center;"><img src="app_svg.svg" alt="">&nbsp; <span>Dashboard</span></span>
+                <span id="dropdown_img-1" onclick="dropdown(1)"><img id="dropdown_svg-1" src="dropdown_svg.svg" alt=""></span>
+            </div>
+            <div class="dropdown-content" id="dropdown-content-1">
+                <div>Commerce</div>
+                <div>Analytics</div>
+                <div>Crypto</div>
+                <div>Helpdesk</div>
+                <div>Monitoring</div>
+                <div>Fitness</div>
+            </div>
+            <div class="dropdown" id="dropdown-2">
+                <span style="display: flex; align-items: center;"><img src="app_svg.svg" alt="">&nbsp;<span>Application</span></span>
+                <span id="dropdown_img-2" onclick="dropdown(2)"><img id="dropdown_svg-2" src="dropdown_svg.svg" alt=""></span>
+            </div>
+            <div class="dropdown-content" id="dropdown-content-2">
+                <div>aaaa</div>
+                <div>bbbb</div>
+                <div>cccc</div>
+            </div>
+            <div class="dropdown" id="dropdown-3">
+                <span style="display: flex; align-items: center;"><img src="app_svg.svg" alt="">&nbsp;<span>Elements</span></span>
+                <span id="dropdown_img-3" onclick="dropdown(3)"><img id="dropdown_svg-3" src="dropdown_svg.svg" alt=""></span>
+            </div>
+            <div class="dropdown-content" id="dropdown-content-3">
+                <div>dddd</div>
+                <div>eeee</div>
+                <div>ffff</div>
+            </div>
+        </div>
+
+        <div class="cont-2">
+            <div class="cont-2-content">
+            <div style="font-size: 2rem;" >Welcome</div>
+            <span style="display: flex; align-items: center;"><img src="" alt="" width="100px" height="100px" style="border-radius: 50px; background-color: gray;"> &nbsp;<span style="font-size: 2rem;">Username</span></span>
+            <h3>Form title</h3>
+            <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, excepturi magni necessitatibus suscipit in illum?</div> 
+            <div style="color: rgb(115, 12, 12); background-color: rgb(235, 179, 179); border: 1px solid red; border-radius: 4px; padding: 10px; display: flex; align-items: center; margin-top: 10px; margin-bottom: 10px;"><img src="info_svg.svg" alt=""  height="16px" width="16px">&nbsp; <span style="font-weight:500;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, beatae.</span></div> 
+           <div><button onclick="expand_table()" id="expand" style="padding: 5px; margin-bottom: 5px; ">Expand Table</button></div>
+            <table class="table" id="table">
+                <tr>
+                    <th id="name">Name</th>
+                    <th id="username">username</th>
+                    <th id="email">email</th>
+                    <th id="modify">modify</th>
+                </tr>
+            </table> 
+        </div>         
+        </div>
+    </div>
+</div>
+    <script src="landing_page.js"></script>
+</body>
+</html>
